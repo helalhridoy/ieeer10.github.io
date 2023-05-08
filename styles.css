@@ -30,6 +30,9 @@ body{
     background-color: rgb(0,26,112);
     padding: 2% 15% ;
 }
+#cs2 p{
+    font-size: 17px;
+}
 .nav-link{
     font-size: 15px;
     color: #000;
