@@ -7,7 +7,7 @@ body{
     padding: 0;
 }
 .navbar{
-    padding: 0 250px;
+    padding: 0 25%;
 }
 .mainbody{
     padding: 0;
@@ -32,6 +32,9 @@ body{
 }
 #cs2 p{
     font-size: 17px;
+}
+.banner{
+    height: 80%;
 }
 .nav-link{
     font-size: 15px;
