@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.mainbody{
+    padding: 0;
+    height: 300px;
+    width: 100%;
+}
+#s1{
+    background-color: aliceblue;
+    padding: 2% 15% ;
+}
+#s2{
+    background-color: rgb(232,232,232);
+    padding: 2% 15% ;
+}
+#s3{
+    background-image: url('images/homei1.webp');
+    background-color: aliceblue;
+    padding: 2% 15% ;
+}
+#s4{
+    background-color: rgb(0,26,112);
+    padding: 2% 15% ;
+}
+#cs2 p{
+    font-size: 17px;
+}
+.banner{
+    height: 80%;
+}
+
+.important-date{
+    text-align: center;
+    border: solid 2px white;
+
+}
+#navactive li a{
+    font-weight: bold;
+    font-size: 13px;
+}
+.toppattern{
+    background-image: url("/images/top_pattern.jpg");
+}
+#testimonial{
+    padding: 3% 15%;
+    background-color: #cf2e2e;
+}
+#testimonial h3{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+#testimonial img{
+    padding: 2% 0;
+    width: 20%;
+    border-radius: 100%;
+    display: inline block;
+}
+.testimonial-text{
+    display: inline block;
+}
+#testimonial h4{
+    display: inline;
+    font-weight: bold;
+
+    color: white;
+    padding: 0 4%;
+    font-size: 30px;
+}
+#testimonial p{
+    display: inline block;
+    color: white;
+    font-size: 25px;
+}
+.testimonial-slide{
+    padding: 0 10%;
+}
