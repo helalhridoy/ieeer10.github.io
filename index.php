@@ -6,7 +6,7 @@ include('head.php');
 ?>
 <header>
   <?php
-  include("navbar.php");
+  include("header.php");
   ?>
 </header>
 
@@ -51,7 +51,7 @@ include('head.php');
     <section id="testimonial">
 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators" style="">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -102,30 +102,67 @@ include('head.php');
         </a>
       </div>
 
-
-
-
-
     </section>
 
     <!-- Track Section -->
     <section id="s3">
-      <div class="row" style="padding: 0%;">
-        <div class="col-md-6 col-sm-12" style="padding: 0; text-align: right;">
-          <img class="img-fluid" src="images/homei1.webp" alt="">
+      <div class="container mt-2">
+      <h1 class="animate__animated animate__jackInTheBox">Proposed Tracks</h1>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="card card-block">
+              <img src="images/ai.jpg" alt="Photo of sunset">
+              <h5 class="card-title mt-3 mb-3">1</h5>
+              <p class="card-text">Artificial Intelligence, Machine Learning, and Soft Computing</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card card-block">
+              <img src="images/quantam.jpg" alt="Photo of sunset">
+              <h5 class="card-title  mt-3 mb-3">2</h5>
+              <p class="card-text">Cognitive Science and Computational Biology</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card card-block">
+              <img src="images/iot.jpg" alt="Photo of sunset">
+              <h5 class="card-title  mt-3 mb-3">3</h5>
+              <p class="card-text">Internet of Things (IoT) and Data Analytics</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card card-block">
+              <img src="images/security.jpg" alt="Photo of sunset">
+              <h5 class="card-title  mt-3 mb-3">4</h5>
+              <p class="card-text">Network and Security </p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6 col-sm-12" style="padding:0 2%; text-align: left;">
-          <h4>Proposed Tracks of the Conference:</h4>
-          <ol type="1" style="font-size: 20px;">
-            <li>Artificial Intelligence, Machine Learning, and Soft Computing</li>
-            <li>Cognitive Science and Computational Biology</li>
-            <li>Internet of Things (IoT) and Data Analytics</li>
-            <li>Network and Security</li>
-            <li>Signal Processing and Computer Vision</li>
-            <li>Algorithms and Computation</li>
-            <li>Quantum Computing, Communication, and Optics</li>
-          </ol>
+        <div style="margin-top:10px" class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="card card-block">
+              <img src="images/signal.jpg" alt="Photo of sunset">
+              <h5 class="card-title mt-3 mb-3">5</h5>
+              <p class="card-text">Signal Processing and Computer Vision</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card card-block">
+              <img src="images/algorithm.jpg" alt="Photo of sunset">
+              <h5 class="card-title  mt-3 mb-3">6<br></h5>
+              <p class="card-text">Algorithms and Computation </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card card-block">
+              <img src="images/quantam2.jpg" alt="Photo of sunset">
+              <h5 class="card-title  mt-3 mb-3">7</h5>
+              <p class="card-text">Quantum Computing, Communication, and Optics</p>
+            </div>
+          </div>
+          
         </div>
+
       </div>
     </section>
     <!-- Proposed Date Section -->
@@ -137,11 +174,33 @@ include('head.php');
         </div>
       </div>
     </section>
+    <?php
+    include('footer.php');
+    ?>
   </div>
-  <script src="js/jquery.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/ionicons.js" integrity="sha512-HSVDBvUMH4LJxRGUaaQasbP5E+WYG8Qut2w5UnSxnEb3AFVFv3WHlBrWDW5RuIpTPgSJP21tMN3k9YYZgwPw4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script> -->
   <script src="js/main.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      var navbar = $('.header-inner');
+      $(window).scroll(function(){
+        if($(window).scrollTop() <=40){
+          navbar.removeClass('navbar-scroll');
+        }else{
+          navbar.addClass('navbar-scroll');
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>

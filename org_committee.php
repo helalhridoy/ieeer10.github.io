@@ -9,6 +9,7 @@ include('head.php');
   include("navbar.php");
   ?>
 </header>
+
 <body>
 
   <div class="container-fluid mainbody">
@@ -19,12 +20,12 @@ include('head.php');
     </section>
 
     <section id="cs2">
-        <br><br>
-        <h1 style="font-weight: 500; color: brown;">ORGANIZING COMMITTEE</h2>
+      <br><br>
+      <h1 style="font-weight: 500; color: brown;">ORGANIZING COMMITTEE</h2>
         <br>
         <h3>International Advisory Committee:</h3>
         <p>ExCom Members of IEEE CS R10 <br>
-            CS Chapter Chairs <br> and So on</p>
+          CS Chapter Chairs <br> and So on</p>
         <br>
         <h3>Conference Chairs:</h3>
         <p>Saifur Rahman, IEEE President (Proposed)</p>
@@ -55,18 +56,26 @@ include('head.php');
         <br>
         <h3>Technical Secretaries:</h3>
         <p>Vice-Chair (Activity), IEEE CS BDC</p>
-        
+
 
     </section>
     <section id="s4">
-        <div style="text-align: center;">
-          <h2 style="color: white;">Important Dates</h2>
-          <div class="important-date">
-            <h4 style="color: white;">Proposed Dates: 25th & 26th November 2023</h4>
-          </div>
+      <div style="text-align: center;">
+        <h2 style="color: white;">Important Dates</h2>
+        <div class="important-date">
+          <h4 style="color: white;">Proposed Dates: 25th & 26th November 2023</h4>
         </div>
-      </section>
+      </div>
+    </section>
+    <?php
+    include('footer.php');
+    ?>
+
   </div>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>

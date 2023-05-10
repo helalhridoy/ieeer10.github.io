@@ -1,14 +1,14 @@
-<div>
+<div style="background-color: #3CB371;">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-10 text-center mb-5 pt-5">
-          <h1 class="heading-section animate__animated animate__jackInTheBox">1st R10CS International Conference on Computing and Information Technology (R10CIT
+          <h1 style="color:white;" class="heading-section animate__animated animate__jackInTheBox">R10CS International Conference on Computing and Information Technology (R10CIT
             2023)</h1>
         </div>
       </div>
     </div>
-    <div class="sticky-top">
-      <nav class=" navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div  class="navbaro" >
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark ftco-navbar-light" id="ftco-navbar">
       <div style="padding:0 10%;" class="container-fluid">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
           aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
