@@ -6,18 +6,13 @@ include('head.php');
 ?>
 <header>
   <?php
-  include("navbar.php");
+  include("header.php");
   ?>
 </header>
 
 <body>
 
   <div class="container-fluid mainbody">
-
-    <section id="s1">
-      <h1>1st R10CS International Conference on Computing and Information Technology (R10CIT 2023)</h1>
-      <hr>
-    </section>
 
     <section id="cs2">
       <br><br>
@@ -58,15 +53,7 @@ include('head.php');
         <p>Vice-Chair (Activity), IEEE CS BDC</p>
 
 
-    </section>
-    <section id="s4">
-      <div style="text-align: center;">
-        <h2 style="color: white;">Important Dates</h2>
-        <div class="important-date">
-          <h4 style="color: white;">Proposed Dates: 25th & 26th November 2023</h4>
-        </div>
-      </div>
-    </section>
+   
     <?php
     include('footer.php');
     ?>
@@ -74,12 +61,9 @@ include('head.php');
   </div>
 
 
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+  <?php
+    include('scripts.php');
+    ?>
 </body>
 
 </html>

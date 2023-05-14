@@ -1,12 +1,5 @@
 <div style="background-color: #3CB371;">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-10 text-center mb-5 pt-5">
-          <h1 style="color:white;" class="heading-section animate__animated animate__jackInTheBox">R10CS International Conference on Computing and Information Technology (R10CIT
-            2023)</h1>
-        </div>
-      </div>
-    </div>
+    
     <div  class="navbaro" >
       <nav class="navbar sticky-top navbar-expand-lg navbar-dark ftco-navbar-light" id="ftco-navbar">
       <div style="padding:0 10%;" class="container-fluid">

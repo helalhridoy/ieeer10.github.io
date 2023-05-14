@@ -1,3 +1,29 @@
+$(document).ready(function () {
+	$(".customer-logos").slick({
+	  slidesToShow: 6,
+	  slidesToScroll: 1,
+	  autoplay: true,
+	  autoplaySpeed: 1500,
+	  arrows: false,
+	  dots: false,
+	  pauseOnHover: false,
+	  responsive: [
+		{
+		  breakpoint: 768,
+		  settings: {
+			slidesToShow: 4
+		  }
+		},
+		{
+		  breakpoint: 520,
+		  settings: {
+			slidesToShow: 3
+		  }
+		}
+	  ]
+	});
+  });
+  
 jQuery(function($) {
 	var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
 	$('#navactive li a').each(function() {
@@ -30,3 +56,4 @@ jQuery(function($) {
 	$('[data-toggle="tooltip"]').tooltip()
 
 })(jQuery);
+

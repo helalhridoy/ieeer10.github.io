@@ -1,4 +1,33 @@
 
+ <!-- Proposed Date Section -->
+ <section id="s4">
+      <div class="res_div" style="text-align: center;">
+        <h2 style="color: white;">Important Dates</h2>
+        <div class="important-date">
+          <h4 style="color: white;">Proposed Dates: 25th & 26th November 2023</h4>
+        </div>
+      </div>
+    </section>
+<section id="partner" style="padding: 2% 0 !important;">
+    <div class="res_div">
+        <h2>Our Partners</h2>
+        <section class="customer-logos slider">
+            <div class="slide"><img src="images/ieee.png"></div>
+            <div class="slide"><img src="images/r10logo.png"></div>
+            <div class="slide"><img src="images/ieeecsbdc.png"></div>
+            <div class="slide"><img src="images/r10cs.png"></div>
+            <div class="slide"><img src="images/ieee.png"></div>
+            <div class="slide"><img src="images/r10logo.png"></div>
+            <div class="slide"><img src="images/ieeecsbdc.png"></div>
+            <div class="slide"><img src="images/r10cs.png"></div>
+            <div class="slide"><img src="images/ieee.png"></div>
+            <div class="slide"><img src="images/r10logo.png"></div>
+            <div class="slide"><img src="images/ieeecsbdc.png"></div>
+            <div class="slide"><img src="images/r10cs.png"></div>
+        </section>
+
+    </div>
+</section>
 <footer class="footer-02 footerclass">
     <div class="container">
         <!-- <div class="row justify-content-center">
@@ -18,8 +47,10 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-8 mb-md-0 mb-4">
                         <h2 class="footer-heading"><a href="#" class="logo">R10COMSIT</a></h2>
-                        <p>IEEE Computer Society R10 comprises more than 40 chapters. For increasing the collaborations among these chapters a flagship conference of IEEE CS R10 that will be hosted at different countries in a rotation basis can be very much helpful.</p>
-                        <a href="#">read more <span class="ion-ios-arrow-round-forward"></span></a>
+                        <p>IEEE Computer Society R10 comprises more than 40 chapters. For increasing the collaborations
+                            among these chapters a flagship conference of IEEE CS R10 that will be hosted at different
+                            countries in a rotation basis can be very much helpful.</p>
+                        <a href="about.php">read more <span class="ion-ios-arrow-round-forward"></span></a>
                     </div>
                 </div>
             </div>
@@ -84,24 +115,18 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-md-6 col-lg-8">
+        <div class="row ">
+            <div class="col-md-12 col-lg-12">
 
                 <p class="copyright">
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     Copyright &copy;
-                    <script>document.write(new Date().getFullYear());</script> All rights reserved<i class="ion-ios-heart" aria-hidden="true"></i> by <a href=""
-                        target="_blank">IEEE CS BDC</a>
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved<i
+                        class="ion-ios-heart" aria-hidden="true"></i> by <a href="" target="_blank">IEEE CS BDC</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </p>
             </div>
-            <div class="col-md-6 col-lg-4 text-md-right">
-                <p class="mb-0 list-unstyled">
-                    <a class="mr-md-3" href="#">Terms</a>
-                    <a class="mr-md-3" href="#">Privacy</a>
-                    <a class="mr-md-3" href="#">Compliances</a>
-                </p>
-            </div>
+           
         </div>
     </div>
 </footer>
