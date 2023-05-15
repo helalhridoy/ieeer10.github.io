@@ -13,7 +13,7 @@
 }
 
 
-#timeline ul, li{
+#timeline ul li{
   list-style: none;
   padding: 0;
 }

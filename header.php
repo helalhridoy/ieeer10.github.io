@@ -1,8 +1,9 @@
 <header class="header">
+    
     <div class="header-inner">
         <div class="container-fluid px-lg-5">
-            <nav class="navbar navbar-expand-lg my-navbar">
 
+            <nav class="navbar navbar-expand-xl my-navbar">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -19,38 +20,44 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Organizing
                                 Committee</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="team.php">Proposed Conference Committee</a>
-                                <a class="dropdown-item" href="coming_soon.php">Cheif Patron & Patrons</a>
-                                <a class="dropdown-item" href="coming_soon.php">Advisory Committees</a>
+                                <a class="dropdown-item" href="org_committee1.php">Proposed Conference Committee</a>
+                                <a class="dropdown-item" href="team.php">Cheif Patron & Patrons</a>
+                                <a class="dropdown-item" href="team.php">Advisory Committees</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="coming_soon.php">General Chairs and Co-Chairs</a>
-                                <a class="dropdown-item" href="coming_soon.php">Technical Program Committee</a>
+                                <a class="dropdown-item" href="team.php">General Chairs and Co-Chairs</a>
+                                <a class="dropdown-item" href="team.php">Technical Program Committee</a>
                             </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="coming_soon.php">Call for Contributions</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Call for
                                 Contributions</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="team.php">Special Sessions</a>
-                                <a class="dropdown-item" href="coming_soon.php">Call for Papers</a>
+                                <a class="dropdown-item" href="coming_soon.php">Special Sessions</a>
+                                <a class="dropdown-item" href="call_for_paper.php">Call for Papers</a>
                             </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="timeline.php">Author Information</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Author Information</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="guideline_to_authors.php">Author Information</a>
+                                <a class="dropdown-item" href="reginformation.php">Registration Information</a>
+                            </div>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link" href="coming_soon.php">Program</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Conference venue & Local Information</a>
+                            <a class="nav-link" href="venue_information.php">Conference venue & Local Information</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.php">Sponsorships</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sponsorship</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="sponsorship.php">Sponsors</a>
+                                <a class="dropdown-item" href="call_for_sponsor.php">Call for Sponsor</a>
+                            </div>
                         </li>
                     </ul>
                     <!-- <form class="form-inline my-2 my-lg-0">
