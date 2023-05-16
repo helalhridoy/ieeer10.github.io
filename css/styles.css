@@ -119,7 +119,11 @@ p{
 }
 
 /* sponsor page */
-
+#sponsor .container{
+  width: 60%;
+ padding: 0;
+  margin: auto;
+}
 .section-heading {
   margin-bottom: 30px;
 }
@@ -142,13 +146,16 @@ p{
 .thank-you-message {
   display: block;
   margin: auto;
-  font-size: 24px;
-  color: #fff;
-  background-color: #428bca;
+  font-size: 30px !important;
+  color: #131719;
+  background-color: #9fd4e9;
   padding: 20px;
   border-radius: 5px;
 }
-
+.thank-you-message p{
+  font-size: large;
+  font-weight: 600;
+}
 
 /* call for sponsorship */
 .sponsorship-card img{
@@ -210,6 +217,8 @@ p{
   background-image: url("/images/top_pattern.jpg");
 }
 
+
+
 #testimonial {
   padding: 1% 0%;
   background-color: #3CB371;
@@ -254,7 +263,9 @@ p{
 /* Call for Paper */
 
 #call_for_paper .container {
-  margin-top: 40px;
+  width: 60%;
+  margin: auto;
+  padding: 0;
 }
 
 #call_for_paper  .card {
@@ -313,7 +324,9 @@ p{
 /* Venue and information */
 
 #venue .container {
-  margin-top: 50px;
+  margin: auto;
+  width: 60%;
+  padding: 0;
 }
 #venue h1 {
   color: #333;
@@ -326,8 +339,8 @@ p{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 #venue .card-header {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #9fd4e9;
+  color: #131719;
   font-weight: bold;
 }
 #venue .card-body {
@@ -345,7 +358,7 @@ p{
 
 /* Registration Information */
 #reginfo .container {
-  max-width: 900px;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -357,7 +370,7 @@ p{
 }
 
 #reginfo .card-table .card-header {
-  background-color: #007bff;
+  background-color: #9fd4e9;
   color: #fff;
   font-weight: bold;
 }
@@ -382,12 +395,14 @@ p{
 
 
 .guideline_to_authors{
+  
   padding: 5% 0;
   background-color: gray;
 }
 .guideline_to_authors_div{
-  text-align: left;
   width: 60%;
+  padding: 0;
+  text-align: left;
   margin: auto;
 }
 .guideline_to_authors_div h1{
@@ -400,6 +415,9 @@ p{
 .guideline_to_authors_div li{
   list-style: auto !important;
 
+}
+.guideline_to_authors_div .card-header{
+  text-align: center;
 }
 
 /* card codes */
@@ -484,6 +502,27 @@ div [class^="col-"] {
 
 
 /* Footer */
+.footer-02 .footer-heading {
+  font-size: 19px;
+  color: #131719 !important;
+  margin-bottom: 20px;
+}
+.footer-02 .list-unstyled li a {
+  color: black !important;
+}
+.footer-02 {
+  background: ##9fd4e9;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: #9fd4e9 !important;
+}
 .footerclass a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -738,6 +777,7 @@ footer {
 }
 
 /* Navbar CSS */
+
 .nav-item{
   padding: 0;
   margin: 5px 5px !important;
@@ -754,8 +794,7 @@ footer {
   font-size: 15px;
 }
 .dropdown-menu{
-  width: fit-content !important;
-  min-width: max-content !important;
+  width: 100%;
   text-align: center;
   border: solid 1px #c8c8fa;
   background-color: white !important;
@@ -1098,6 +1137,7 @@ footer {
 
 .important-dates .date-item .card:hover {
   transform: scale(1.05);
+  background-color: #9fd4e9;
 }
 
 .important-dates .date-item .card .card-body {
@@ -1477,3 +1517,181 @@ text-transform: uppercase;
   background-repeat: no-repeat;
   z-index: 1;
 }
+
+/* guideline to authors */
+
+.guideline_to_authors_div .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.guideline_to_authors_div .card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.guideline_to_authors_div .card-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.guideline_to_authors_div .card-content {
+  margin-bottom: 20px;
+}
+
+.guideline_to_authors_div .card-content p {
+  margin-bottom: 10px;
+}
+
+.guideline_to_authors_div .card-content ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.guideline_to_authors_div .card-content ul li {
+  margin-bottom: 5px;
+}
+
+.guideline_to_authors_div .card-footer {
+  text-align: right;
+}
+
+.guideline_to_authors_div .card-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .guideline_to_authors_div .container {
+    padding: 10px;
+  }
+}
+
+
+#program_info .container {
+  width: 60%;
+  margin: auto;
+  padding: 0;
+}
+
+#program_info h1 {
+  text-align: center;
+  color: #333;
+}
+
+#program_info .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#program_info .card {
+  flex-basis: calc(33.33% - 20px);
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#program_info .card-header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #131719;
+}
+
+#program_info .card-time {
+  color: #888;
+  margin-bottom: 10px;
+}
+
+#program_info .card-content {
+  margin-bottom: 20px;
+}
+
+#program_info .keynote {
+  background-color: #f8f8f8;
+}
+
+#program_info .poster {
+  background-color: #e6f2ff;
+}
+
+#program_info .technical {
+  background-color: #f2f2f2;
+}
+
+#program_info .invited-talk {
+  background-color: #f8e6ff;
+}
+
+#program_info .closing {
+  background-color: #ffcccc;
+}
+
+#program_info .galadinner {
+  background-color: #ffe6cc;
+}
+
+
+/* Special Sessions */
+
+.special_sessions .container {
+
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.special_sessions .card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.special_sessions .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.special_sessions .card-header {
+  width: 100%;
+  padding: 10px;
+  background-color: #9fd4e9;
+  color: #131719 !important;
+  font-weight: bold !important;
+  font-size: 18px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.special_sessions .card-content {
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .special_sessions .card {
+    flex-basis: calc(50% - 10px);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .special_sessions .card {
+    flex-basis: calc(33.33% - 10px);
+  }
+}
+
+
+/* Special Sessions */

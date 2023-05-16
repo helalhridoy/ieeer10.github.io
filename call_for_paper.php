@@ -14,7 +14,7 @@ include('head.php');
 
   <div class="container-fluid mainbody">
 
-    <section id="c">
+    <section id="call_for_paper">
 
       <div class="container">
         <div class="call-for-paper">

@@ -20,7 +20,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Organizing
                                 Committee</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="org_committee1.php">Proposed Conference Committee</a>
+                                <a class="dropdown-item" href="org_committee1.php">Organizing Committee</a>
                                 <a class="dropdown-item" href="team.php">Cheif Patron & Patrons</a>
                                 <a class="dropdown-item" href="team.php">Advisory Committees</a>
                                 <div class="dropdown-divider"></div>
@@ -33,7 +33,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Call for
                                 Contributions</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="coming_soon.php">Special Sessions</a>
+                                <a class="dropdown-item" href="special_sessions.php">Special Sessions</a>
                                 <a class="dropdown-item" href="call_for_paper.php">Call for Papers</a>
                             </div>
                         </li>
@@ -46,10 +46,10 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="coming_soon.php">Program</a>
+                            <a class="nav-link" href="program.php">Program</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="venue_information.php">Conference venue & Local Information</a>
+                            <a class="nav-link" href="venue_information.php">Venue</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -71,7 +71,7 @@
 
 
 </header>
-<section style="background-color: aliceblue;">
+<section style="background-color:;">
     <!-- <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-12">

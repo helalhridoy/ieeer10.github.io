@@ -14,7 +14,7 @@ include('head.php');
 
   <div class="container-fluid mainbody">
 
-    <section id="">
+    <section id="sponsor">
 
       <div class="container">
         <h2 class="section-heading text-center">Call For Sponsorship</h2>
